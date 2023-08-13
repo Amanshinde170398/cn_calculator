@@ -1,9 +1,12 @@
 import { Calculator } from "./index";
+import { CalProvider } from "../Context/CalContext";
 
 function App() {
   return (
     <div className="App">
-      <Calculator />
+      <CalProvider>
+        <Calculator />
+      </CalProvider>
     </div>
   );
 }
