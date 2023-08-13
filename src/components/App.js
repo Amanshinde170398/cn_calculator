@@ -1,5 +1,11 @@
+import { Calculator } from "./index";
+
 function App() {
-  return <div className="App">ok</div>;
+  return (
+    <div className="App">
+      <Calculator />
+    </div>
+  );
 }
 
 export default App;
